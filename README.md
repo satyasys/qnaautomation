@@ -25,3 +25,17 @@ Answer 3.
 Please do not remove Copyright information from the script.
 
 If you have any requirement to convert word document into SQL script, please contact us at chinmoy at satyasys dot com.
+
+Now create a FAQs table in your database like
+
+CREATE TABLE FAQs(
+    id int NOT NULL AUTO_INCREMENT,
+    Question varchar(1024) NOT NULL,
+    Answer varchar(4096) NOT NULL,
+    PRIMARY KEY (id)
+);
+Run the script like
+
+./word2sql.sh "<html file containing questions and answers>" "<pattern for start of a new question>" "<database table>"
+ As example
+./word2sql.sh FAQs.htm "<ol start=" "FAQs"

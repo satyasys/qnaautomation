@@ -23,3 +23,5 @@ Answer 3.
 Answer 3.
 
 Please do not remove Copyright information from the script.
+
+If you have any requirement to convert word document into SQL script, please contact us at chinmoy at satyasys dot com.

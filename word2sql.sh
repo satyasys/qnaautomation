@@ -1,3 +1,11 @@
+#!/usr/bin/bash
+# © SatyaSys Tech Private Limited 
+# Do not remove copyright information from this file
+# If you find this script useful, please feel free to 
+# to contact us via our website https://www.satyasys.com, if you need any IT services.
+# We are working on Android, Java Spring boot, Blockchain, Web Designing, 
+# Graphic Designing, Security Testing, Machine Learning, Data Analytics,
+# IT Training, IT Support, etc.
 if [ $# -ne 3 ]
 then
         echo "./word2sql.sh file linepatten tablename";

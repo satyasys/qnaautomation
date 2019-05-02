@@ -36,6 +36,14 @@ CREATE TABLE FAQs(
 );
 Run the script like
 
-./word2sql.sh "<html file containing questions and answers>" "<pattern for start of a new question>" "<database table>"
+./word2sql.sh faqs pattern table
  As example
-./word2sql.sh FAQs.htm "<ol start=" "FAQs"
+./word2sql.sh "FAQs.htm" "<ol start=" "FAQs"
+
+© SatyaSys Tech Private Limited 
+Do not remove copyright information from this file
+If you find this script useful, please feel free to 
+to contact us via our website https://www.satyasys.com for any IT services.
+We are working on Android, Java Spring boot, Blockchain, Web Designing, 
+Graphic Designing, Security Testing, Machine Learning, Data Analytics,
+IT Training, IT Support, etc.
